@@ -1,1 +1,4 @@
-document.write('Your bundle is working...');
+var React = require('react');
+var App   = require('./app/app.js.jsx');
+
+React.render(<App />, document.body);

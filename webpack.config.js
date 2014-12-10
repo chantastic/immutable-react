@@ -5,6 +5,11 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    loaders: [ ]
+    loaders: [
+      {
+        test: /\.js/,
+        loader: "jsx-loader?harmony"
+      }
+    ]
   }
 }
